@@ -30,10 +30,10 @@ function paintToCanvas() {
     // // mess with the pixels
     // pixels = redEffect(pixels);
 
-    pixels = rgbSplit(pixels);
+    // pixels = rgbSplit(pixels);
     // ctx.globalAlpha = 0.8;
 
-    // pixels = greenScreen(pixels);
+    pixels = greenScreen(pixels);
     //put the pixels back in
     ctx.putImageData(pixels, 0, 0);
   }, 16);
